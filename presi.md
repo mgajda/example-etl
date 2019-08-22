@@ -184,16 +184,15 @@ import Frames
 
 * * *
 
-# Sparkline charting
-```
-dependencies:
-  hsparklines
-```
+# Fast charting for admins
 
-* * *
-
-# Charting
-
+*
+```haskell
+verticalChars = " ▁▂▃▄▅▆▇█"
+horizontalChars="▉▊▋▌▍▎▏"
 ```
 
-```
+* Use `Foldl` library to summarize rainfall in `.csv` files:
+    1. Read `.json` metadata and examine in `GHCi`
+    2. Read `.csv` and extract it using metadata.
+    3. Plot in the console.
