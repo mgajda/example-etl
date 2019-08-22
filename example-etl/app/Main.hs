@@ -1,6 +1,8 @@
 module Main where
 
-import Lib
+import qualified MyFormat as MyJSON
+import qualified MyCSV    as MyCSV
 
-main :: IO ()
-main = someFunc
+main = do
+  MyJSON.main
+  MyCSV.main
