@@ -62,11 +62,16 @@ resolver: lts-14.2
 #
 # Allow a newer minor version of GHC than the snapshot specifies
 # compiler-check: newer-minor
+allow-newer: true
 packages:
 - .
 extra-deps:
+- ansi-terminal-0.9.1@sha256:48f53532d0f365ffa568c8cf0adc84c66f800a7d80d3329e4f04fa75392f4af1,3225
+- haskell-src-exts-1.20.3@sha256:eb9a0a02e422f64e793fe077e445e930bc365b7f7ce92ce6983475c72f8b3785,4467
 - git: https://github.com/tathougies/beam.git
   commit: db7e1d387b7ddbab13e22d65d1757b5257a8afe9
   subdirs:
     - beam-core
     - beam-sqlite
+    - beam-migrate
+    - beam-migrate-cli
