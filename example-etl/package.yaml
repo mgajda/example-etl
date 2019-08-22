@@ -23,11 +23,13 @@ dependencies:
 - base >= 4.7 && < 5
 - json-alt
 - aeson
+- hsparklines
 - Chart
 - Chart-cairo
 - vinyl
 - foldl
 - Frames
+- pipes
 
 library:
   source-dirs: src
