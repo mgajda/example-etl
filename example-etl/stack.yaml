@@ -68,6 +68,11 @@ packages:
 extra-deps:
 - ansi-terminal-0.9.1@sha256:48f53532d0f365ffa568c8cf0adc84c66f800a7d80d3329e4f04fa75392f4af1,3225
 - haskell-src-exts-1.20.3@sha256:eb9a0a02e422f64e793fe077e445e930bc365b7f7ce92ce6983475c72f8b3785,4467
+- Chart-cairo-1.9.1@sha256:31e502d24fa88f5df025cf76feba07b8394c6f5c4f3dfe3104f6f5001188e73b,879
+- Frames-0.6.1@sha256:9d628962ed6d1e835ab2b4d309d7909dc477acf6fa270879b6085621546dccaa,8595
+- cairo-0.13.6.0@sha256:a9122d48957a2dbb5a177e5068b850efa1e99bb22c68eb2571165c3c945a8dd6,4187
+- discrimination-0.4@sha256:ad60cb42d42648ebc6f649ce761fe61cb58eca9e2b17a6b4fe68ed2e1fdd4146,2479
+- gtk2hs-buildtools-0.13.5.0@sha256:a765766c4208a3e4def319ebf280fbb9e7d0a3f28d15922db36970404fb1daee,5238
 - git: https://github.com/tathougies/beam.git
   commit: db7e1d387b7ddbab13e22d65d1757b5257a8afe9
   subdirs:
