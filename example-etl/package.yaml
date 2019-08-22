@@ -23,10 +23,11 @@ dependencies:
 - base >= 4.7 && < 5
 - json-alt
 - aeson
-- Frames
-- vinyl
 - Chart
 - Chart-cairo
+- vinyl
+- foldl
+- Frames
 
 library:
   source-dirs: src
