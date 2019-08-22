@@ -29,6 +29,7 @@ dependencies:
 - vinyl
 - foldl
 - Frames
+- pipes
 
 library:
   source-dirs: src
